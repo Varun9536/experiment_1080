@@ -1,0 +1,776 @@
+.section1 {
+    background-image: url("../../assets/Hospitality/mainlatest.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-width: 1700px; */
+    width: 100%;
+    height: 904px;
+    margin: 0px auto;
+    position: relative;
+    top: 90px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+.laptopImg {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 11rem;
+    width: 54%;
+}
+
+.laptopImgDimension {
+    width: 100%;
+}
+
+
+.textBox {
+
+    position: absolute;
+    top: 29%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+
+.text1 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 53px;
+}
+
+.text2 {
+
+    padding: 10px 60px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+.text3 {
+
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.demoButton {
+
+    background-color: rgba(1, 176, 241, 1);
+    display: flex;
+    gap: 10px;
+    padding: 15px 55px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+
+}
+
+.demoButton:hover {
+    background-color: rgba(20, 176, 241, 1);
+}
+
+.demoArrowButton {
+    padding-top: 3.5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* section 2 */
+
+.section2 {
+    margin-bottom: 3rem;
+    margin-top: 30px;
+}
+
+
+
+
+.section2Heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.servicesBox {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    column-gap: 16px;
+
+    padding: 40px 15px;
+    row-gap: 20px;
+
+
+}
+
+
+.iconAndTextBox {
+
+    width: 214px;
+    padding: 8px;
+    background-color: white;
+    height: 220px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+
+
+
+}
+
+.iconAndTextBox:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+.imgBox {
+    padding: 10px;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.imgBox img {
+    width: 70%;
+}
+
+
+.serviceName {
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.serviceName2 {
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+
+/* section3 */
+
+.section3 {
+    margin-bottom: 3rem;
+}
+
+.section3Heading {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+
+.section3Para {
+    width: 76%;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section3Video {
+    width: 65%;
+    margin: 0px auto;
+}
+
+@media (max-width : 800px)
+{
+    .videoImgBox
+    {
+        width: 97%;
+        height: 200px;
+        background-image: url("../../assets/insidePages/vimg.webp");
+        background-size: cover;
+        background-position: center;
+        margin: 0px auto;
+        border-radius: 20px;
+    }
+
+    .section3Video {
+        display: none;
+    }
+}
+
+
+
+/* section4 */
+
+
+.section4 {
+    margin-bottom: 1.3rem;
+}
+
+
+.section4Heading {
+
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.clientSection {
+
+    background-color: #80B4FB;
+    padding: 25px 0px;
+}
+
+.clientLogoBox {
+    display: flex;
+    justify-content: center;
+    gap: 0px 38px;
+}
+
+.clinetLogoSize {
+    width: 12%;
+}
+
+
+
+.section5 {
+    margin-bottom: 2rem;
+
+
+
+}
+
+
+
+.reviewSection {
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    /* padding-bottom: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+
+}
+
+
+@media (max-width : 800px) {
+    .reviewSection {
+        display: none;
+    }
+
+
+}
+
+@media (min-width : 800px) {
+
+    .reviewSectionForPhone {
+        display: none;
+    }
+}
+
+.section5Heading {
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section5HeadingAndIconBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 20px;
+}
+
+
+.section5Subheading {
+
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+.feedBack {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    column-gap: 16px;
+    row-gap: 30px;
+
+}
+
+.feedBackArticleBox {
+    width: 370px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.section6 {
+    margin-bottom: 3rem;
+}
+
+@media (max-width : 800px) {
+    .section6 {
+        display: none;
+    }
+
+
+}
+
+@media (min-width : 800px) {
+
+    .section6ForPhone {
+        display: none;
+    }
+}
+
+.section6Heading {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.storySection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 16px;
+    row-gap: 30px;
+}
+
+.storyBox {
+    width: 370px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.viewMoreBtn {
+    /* background-color: rgba(20, 176, 241, 1); */
+    color: rgba(20, 176, 241, 1);
+    border: none;
+    padding: 15px 90px;
+    /* color: white; */
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid rgba(20, 176, 241, 1);
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+
+
+.section7 {
+    margin-bottom: 3rem;
+}
+
+
+@media (max-width : 800px) {
+    .section7 {
+        display: none;
+    }
+
+
+}
+
+@media (min-width : 800px) {
+
+    .section7ForPhone {
+        display: none;
+    }
+}
+
+.section7Heading {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.insightSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 30px;
+
+}
+
+.insightBox {
+    width: 370px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.cardBoxInnerHeading {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.cardBoxInnerHeading2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 0px 60px;
+}
+
+
+.cardBoxStoryInnerHeading {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+
+
+}
+
+.cardBoxInsightsInnerHeading {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+
+
+}
+
+
+/* shift of top section when phone nav bar  appear */
+@media (max-width :1120px) {
+
+
+    .section1 {
+        top: 64px;
+    }
+
+    .text1 {
+        font-size: 32px;
+        line-height: normal;
+    }
+
+}
+
+/* width increase of herosection for bigger screen */
+
+@media (min-width: 1700px) {
+    .section1 {
+
+        max-width: 1906px;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .laptopImg {
+        bottom: 10rem;
+    }
+
+    .textBox {
+        padding: 0px 60px;
+    }
+
+    .text1 {
+        font-size: 58px;
+    }
+
+    .text2 {
+        font-size: 20px;
+    }
+
+}
+
+
+/* media query for phone */
+
+@media (min-width: 800px) and (max-width: 1120px) {
+
+    .section1 {
+
+        width: 100vw;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .section1 {
+
+        width: 100vw;
+        height: 860px;
+        background-size: cover;
+
+    }
+
+    .textBox {
+
+
+        top: 1%;
+        left: unset;
+        transform: unset;
+        padding-top: 2rem;
+        /* text-align: left; */
+
+    }
+
+    .text1 {
+        text-align: left;
+        padding: 10px 15px;
+    }
+
+    .text2 {
+
+        padding: 10px 15px;
+        /* margin-top: 15px; */
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .text3 {
+
+        justify-content: flex-start;
+        padding: 10px 15px;
+
+    }
+
+
+
+
+
+    .demoButton {
+
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .laptopImg {
+
+
+        width: 25rem;
+        bottom: 11rem;
+    }
+
+
+
+
+
+    /* section2 */
+
+    .section2 {
+        margin-top: -80px;
+    }
+
+
+    .section2Heading {
+
+        font-size: 17px;
+
+    }
+
+
+    .servicesBox {
+        column-gap: 16px;
+        padding: 40px 5px;
+        row-gap: 8px;
+    }
+
+
+
+    .iconAndTextBox {
+        width: 130px;
+        height: 145px;
+
+
+    }
+
+
+    .serviceName {
+        padding: unset;
+        margin-top: 5px;
+        font-size: 12px;
+
+    }
+
+    .serviceName2 {
+        padding: unset;
+        margin-top: 5px;
+        font-size: 12px;
+
+    }
+
+
+
+
+
+
+
+    .section3Heading {
+        font-size: 18px;
+        width: 100%;
+        text-align: left;
+
+    }
+
+    .section3Para {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .section3Video {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+
+
+
+
+    .section4Heading {
+
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .clientSection {
+        margin-bottom: 3rem;
+    }
+
+
+
+
+    .section5Heading {
+
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+
+
+
+
+
+    .clientLogoBox {
+        gap: 15px 38px;
+        flex-wrap: wrap;
+    }
+
+
+    .clinetLogoSize {
+        width: 100px;
+    }
+
+
+    .reviewSectionForPhone {
+        /* margin-bottom: 30px; */
+        background-color: #f5f5f5;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+
+    .section5HeadingAndIconBox {
+        gap: 0px 0px;
+        align-items: center;
+        font-size: 18px;
+
+    }
+
+    .section5Subheading {
+
+        /* text-align: unset; */
+        font-size: 16px;
+        margin-top: 20px;
+
+    }
+
+    .feedBackArticleBox {
+        margin-bottom: 20px;
+    }
+
+
+    .section6ForPhone
+    {
+       margin-bottom: 4rem;
+    }
+
+    .section6Heading {
+
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .viewMoreBtn {
+
+        font-size: 16px;
+        padding: 10px;
+
+
+    }
+
+
+    .section7ForPhone
+    {
+        margin-bottom: 4rem;
+    }
+
+
+
+    .section7Heading {
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 900;
+        text-align: center;
+
+    }
+
+
+
+
+
+
+}
