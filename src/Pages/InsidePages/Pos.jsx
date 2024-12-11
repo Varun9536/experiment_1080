@@ -19,6 +19,7 @@ import tm from "../../assets/insidePages/pos/posPage/feature/tm.png"
 import ufi from "../../assets/insidePages/pos/posPage/feature/ufi.png"
 
 
+import mainimg from "../../assets/insidePages/pos/pospage/H3.webp"
 
 // benifits
 
@@ -214,13 +215,13 @@ export default function Pos() {
                 <div className={`${style.section1} insidePageUpperSection`}>
                     <div className={`${style.pageHeadingBox}`}>
                         <div className={`${style.section1Heading} font4`}>
-                            <span style={{ color: "#012060" }}>DINNING</span>
-                            <span style={{ color: "#01B0F1" }} className="blueTextGlobalClass"> (POS)</span>
+                            <div style={{ color: "#012060" }}>DINNING</div>
+                            <div style={{ color: "#01B0F1" }} className="blueTextGlobalClass"> (POS)</div>
                         </div>
                     </div>
 
                     <div className={style.section1ImgBox}>
-
+                        <img style={{ width: "100%" }} src={mainimg} alt="" />
                     </div>
                 </div>
 

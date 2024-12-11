@@ -40,6 +40,9 @@ import Accordion from "../../Components/Accordian/Accordian.jsx"
 import { FaArrowRightLong } from "react-icons/fa6";
 
 
+import main from "../../assets/insidePages/banquet/h.webp"
+
+
 import footer from "../../assets/footer/foot.webp"
 import FooterUpperPart from "../../Components/Footer/FooterUpperPart.jsx"
 import FooterLower from "../../Components/Footer/FooterLower.jsx"
@@ -178,10 +181,10 @@ export default function BanquetAnsBilling() {
 
   const footerUpperText = {
 
-    text1 : "Manage events" ,
-    text2 : "" ,
-    text3 : "and simplify billing with our Banquet solution" ,
-    img : footer
+    text1: "Manage events",
+    text2: "",
+    text3: "and simplify billing with our Banquet solution",
+    img: footer
   }
 
 
@@ -197,13 +200,13 @@ export default function BanquetAnsBilling() {
         <div className={`${style.section1} insidePageUpperSection`}>
           <div className={`${style.pageHeadingBox}`}>
             <div className={`${style.section1Heading} font4`}>
-              <span style={{ color: "#012060" }}>BANQUET &</span>
-              <span style={{ color: "#01B0F1" }} className="blueTextGlobalClass"> BILLING</span>
+              <div style={{ color: "#012060" }}>BANQUET </div>
+              <div style={{ color: "#01B0F1" }} className="blueTextGlobalClass"> & BILLING</div>
             </div>
           </div>
 
           <div className={style.section1ImgBox}>
-
+            <img style={{width : "100%"}} src={main} alt="" />
           </div>
         </div>
 
@@ -410,47 +413,47 @@ export default function BanquetAnsBilling() {
         </div>
       </section> */}
 
-<section style={{ background: "#f5f5f5" }} >
-                <div className={`${style.section5} font4 globalSectionSize`}>
+      <section style={{ background: "#f5f5f5" }} >
+        <div className={`${style.section5} font4 globalSectionSize`}>
 
 
-                    <div className={`${style.section5heading} font4`}>Benefits</div>
-                    {benefits.map((item, index) =>
-                    (
+          <div className={`${style.section5heading} font4`}>Benefits</div>
+          {benefits.map((item, index) =>
+          (
 
-                        index % 2 === 0 ? (<div className='GlobalBenefitBox1'>
-
-
-                            <div className="GlobalBenefitImgBox" >
-                                <img style={{ width: "100%" }} src={item.img} alt="" />
-                            </div>
-
-                            <div className='GlobalBenefitTextBox' >
-                                <div className={`${style.innerHeadingBenifit}`}>{item.heading}</div>
-                                <div className={`${style.innerDescBenifit}`}>{item.desc}</div>
-                            </div>
+            index % 2 === 0 ? (<div className='GlobalBenefitBox1'>
 
 
-                        </div>) : (<div className='GlobalBenefitBox2'>
+              <div className="GlobalBenefitImgBox" >
+                <img style={{ width: "100%" }} src={item.img} alt="" />
+              </div>
+
+              <div className='GlobalBenefitTextBox' >
+                <div className={`${style.innerHeadingBenifit}`}>{item.heading}</div>
+                <div className={`${style.innerDescBenifit}`}>{item.desc}</div>
+              </div>
 
 
-                            <div className="GlobalBenefitImgBox">
-                                <img style={{ width: "100%" }} src={item.img} alt="" />
-                            </div>
-
-                            <div className='GlobalBenefitTextBox' >
-                                <div className={`${style.innerHeadingBenifit}`}>{item.heading}</div>
-                                <div className={`${style.innerDescBenifit}`}>{item.desc}</div>
-                            </div>
+            </div>) : (<div className='GlobalBenefitBox2'>
 
 
-                        </div>)
+              <div className="GlobalBenefitImgBox">
+                <img style={{ width: "100%" }} src={item.img} alt="" />
+              </div>
+
+              <div className='GlobalBenefitTextBox' >
+                <div className={`${style.innerHeadingBenifit}`}>{item.heading}</div>
+                <div className={`${style.innerDescBenifit}`}>{item.desc}</div>
+              </div>
 
 
-                    ))}
+            </div>)
 
-                </div>
-            </section>
+
+          ))}
+
+        </div>
+      </section>
 
 
 

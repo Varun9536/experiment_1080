@@ -50,6 +50,8 @@ import laptop from "../../assets/insidePages/pos/posPage/laptop.webp"
 import Accordion from "../../Components/Accordian/Accordian.jsx"
 
 
+import main from "../../assets/insidePages/inventry/inventryHero.webp"
+
 
 import footer from "../../assets/footer/foot.webp"
 import FooterUpperPart from "../../Components/Footer/FooterUpperPart.jsx"
@@ -102,8 +104,8 @@ export default function UserAndInventry() {
             key: 6,
             heading: "Seamless ERP Integration",
             desc: "Sync data across your systems automatically, reducing manual data entry and enhancing operational efficiency.",
-            img: serpi, 
-            width: "63px" 
+            img: serpi,
+            width: "63px"
         }
     ];
 
@@ -144,7 +146,7 @@ export default function UserAndInventry() {
             img: iic,
         },
 
-        
+
     ];
 
 
@@ -184,7 +186,7 @@ export default function UserAndInventry() {
         text2: "",
         text3: "with precision using our robust management syste",
         img: footer
-      }
+    }
 
 
 
@@ -205,13 +207,13 @@ export default function UserAndInventry() {
                 <div className={`${style.section1} insidePageUpperSection`}>
                     <div className={`${style.pageHeadingBox}`}>
                         <div className={`${style.section1Heading} font4`}>
-                            <span style={{ color: "#012060" }}>USER STORE &</span>
-                            <span style={{ color: "#01B0F1", textAlign: "center" }} className="blueTextGlobalClass"> INVENTORY</span>
+                            <div style={{ color: "#012060" }}>USER STORE </div>
+                            <div style={{ color: "#01B0F1" }} className="blueTextGlobalClass"> & INVENTORY</div>
                         </div>
                     </div>
 
                     <div className={style.section1ImgBox}>
-
+                        <img style={{ width: "100%" }} src={main} alt="" />
                     </div>
                 </div>
 
@@ -220,6 +222,28 @@ export default function UserAndInventry() {
 
             <section style={{ backgroundColor: "#f5f5f5" }}>
                 <div className={`${style.section2} font4 globalSectionSize`}>
+
+
+                <div className={style.section2IconAndName}>
+
+<div className={`${style.section2Icon}`}>
+    <img style={{ width: "100%" }} src={sv} alt="" />
+</div>
+
+<div className={`${style.iconName}`}>
+
+
+    <div>
+        Stock
+    </div>
+
+    <div>
+        Visibility
+    </div>
+</div>
+
+</div>
+
 
                     <div className={style.section2IconAndName}>
                         <div className={`${style.section2Icon}`}>
@@ -253,26 +277,7 @@ export default function UserAndInventry() {
 
 
 
-                    <div className={style.section2IconAndName}>
-
-                        <div className={`${style.section2Icon}`}>
-                            <img style={{ width: "100%" }} src={sv} alt="" />
-                        </div>
-
-                        <div className={`${style.iconName}`}>
-
-
-                            <div>
-                                Stock
-                            </div>
-
-                            <div>
-                                Visibility
-                            </div>
-                        </div>
-
-                    </div>
-
+                 
 
 
                 </div>

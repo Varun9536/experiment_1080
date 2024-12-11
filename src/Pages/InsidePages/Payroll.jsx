@@ -35,6 +35,8 @@ import laptop from "../../assets/insidePages/pos/posPage/laptop.webp"
 
 import Accordion from "../../Components/Accordian/Accordian.jsx"
 
+import main from "../../assets/insidePages/pay/payrollHero.webp"
+
 
 import { FaArrowRightLong } from "react-icons/fa6";
 import FooterLower from "../../Components/Footer/FooterLower.jsx"
@@ -208,13 +210,13 @@ export default function Payroll() {
         <div className={`${style.section1} insidePageUpperSection`}>
           <div className={`${style.pageHeadingBox}`}>
             <div className={`${style.section1Heading} font4`}>
-              <span style={{ color: "#012060" }}>PAYROLL</span>
-              {/* <span style={{ color: "#01B0F1" }} className="blueTextGlobalClass"> MANAGEMENT</span> */}
+              <div style={{ color: "#012060" }}>PAYROLL</div>
+              <div style={{ color: "#01B0F1" }} className="blueTextGlobalClass"> MANAGEMENT</div>
             </div>
           </div>
 
           <div className={style.section1ImgBox}>
-
+          <img style={{ width: "100%" }} src={main} alt="" />
           </div>
         </div>
 

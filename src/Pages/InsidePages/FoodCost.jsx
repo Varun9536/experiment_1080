@@ -55,6 +55,9 @@ import footer from "../../assets/footer/foot.webp"
 import FooterUpperPart from "../../Components/Footer/FooterUpperPart.jsx"
 import FooterLower from "../../Components/Footer/FooterLower.jsx"
 
+
+import main from "../../assets/insidePages/food/foodHero.webp"
+
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function FoodCost() {
@@ -228,13 +231,13 @@ const footerUpperText = {
         <div className={`${style.section1} insidePageUpperSection`}>
           <div className={`${style.pageHeadingBox}`}>
             <div className={`${style.section1Heading} font4`}>
-              <span style={{ color: "#012060" }}>FOOD & BEVERAGE </span>
-              <span style={{ color: "#01B0F1" }} className="blueTextGlobalClass" >COST ANALYSIS</span>
+              <div style={{ color: "#012060" }}>FOOD & BEVERAGE </div>
+              <div style={{ color: "#01B0F1" }} className="blueTextGlobalClass" >COST ANALYSIS</div>
             </div>
           </div>
 
           <div className={style.section1ImgBox}>
-
+          <img style={{ width: "100%" }} src={main} alt="" />
           </div>
         </div>
 
